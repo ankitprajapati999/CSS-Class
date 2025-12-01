@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    /* For Refrence Giving the bnorder */
+    border: 3px solid blue;
+    
+    /* Inline Display */
+    display: inline;
+    width: 60%; /* This would not be applied because of the element is inline*/
+    margin: 2rem;    /* This would not be applied because of the element is inline*/
+    padding: 2rem;   /* This would not be applied because of the element is inline*/
+}
+
+
+
+.box {
+
+    /* Display set as block */
+    display: block;
+    width: 60%; 
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+/* FlexBox 👇 */
+/* 
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+} */
